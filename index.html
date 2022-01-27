@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+   
+</head>
+
+<body> 
+   <br><br><br><br><br><br><br><br><br><br><br>
+   <div class = "calculator" > 
+      
+   <table class = "table_call"> 
+      <tr>
+         <td colspan="6"><button class="btn"><a href="c.html">SCIENTIFIC CALCULATOR</a></button></td>
+      </tr>
+   <tr> 
+      <td colspan="6"><input type="text" class="input_field" id="input" style="width: 93%"> </td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="setValue('1')" class="input_field" id="input" style="width:60px">1</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('2')" class="input_field" id="input" style="width:60px">2</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('3')" class="input_field" id="input" style="width:60px">3</button></td>  
+      <td><button class="btn" type="button" onclick="clearField('-')" class="input_field" id="input" style="width:60px">AC</button></td>
+      <td><button class="btn" type="button" onclick="backSpace()" class="input_field" id="input" style="width:60px">DEL</button></td>
+      <td><button class="btn" type="button" onclick="evalAndSetAnswer()" class="input_field" id="input" style="width:60px">=</button></td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="setValue('4')" class="input_field" id="input" style="width:60px">4</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('5')" class="input_field" id="input" style="width:60px">5</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('6')" class="input_field" id="input" style="width:60px">6</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('-')" class="input_field" id="input" style="width:60px">-</button></td> 
+      <td><button class="btn" type="button" onclick="per()" class="input_field" id="input" style="width:60px">%</button></td> 
+      <td><button class="btn" type="button" onclick="cos()" class="input_field" id="input" style="width:60px">cos</button></td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="setValue('7')" class="input_field" id="input" style="width:60px">7</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('8')" class="input_field" id="input" style="width:60px">8</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('9')" class="input_field" id="input" style="width:60px">9</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('*')" class="input_field" id="input" style="width:60px">*</button></td> 
+      <td><button class="btn" type="button" onclick="fac()" class="input_field" id="input" style="width:60px">n!</button></td> 
+      <td><button class="btn" type="button" onclick="sin()" class="input_field" id="input" style="width:60px">sin</button></td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="setValue('.')" class="input_field" id="input" style="width:60px">.</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('0')" class="input_field" id="input" style="width:60px">0</button></td> 
+      <td><button class="btn" type="button" onclick="setValue(',')" class="input_field" id="input" style="width:60px">,</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('+')" class="input_field" id="input" style="width:60px">+</button></td>  
+      <td><button class="btn" type="button" onclick="setValue('/')" class="input_field" id="input" style="width:60px">/</button></td> 
+      <td><button class="btn" type="button" onclick="tan()" class="input_field" id="input" style="width:60px">tan</button></td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="E()" class="input_field" id="input" style="width:60px">E</button></td> 
+      <td><button class="btn" type="button" onclick="pie()" class="input_field" id="input" style="width:60px">pi</button></td> 
+      <td><button class="btn"id="btn" type="button" onclick="setValue('^')" class="input_field" id="input" style="width:60px">^</button></td> 
+      <td><button class="btn" type="button" onclick="setValue('(')" class="input_field" id="input" style="width:60px">(</button></td> 
+      <td><button class="btn" type="button" onclick="setValue(')')" class="input_field" id="input" style="width:60px">)</button></td> 
+      <td><button class="btn" type="button" onclick="log()" class="input_field" id="input" style="width:60px">log</button></td> 
+   </tr> 
+   <tr> 
+      <td><button class="btn" type="button" onclick="mathSqrt()" class="input_field" id="input" style="width:60px">sqrt</button></td> 
+      <td><button class="btn" type="button" onclick="log2()" class="input_field" id="input" style="width:60px">log2</button></td> 
+      <td><button class="btn" type="button" onclick="log10()" class="input_field" id="input" style="width:60px">log10</button></td> 
+      <td><button class="btn" type="button" onclick="log2e()" class="input_field" id="input" style="width:60px">log2e</button></td> 
+      <td><button class="btn" type="button" onclick="log10e()" class="input_field" id="input" style="width:60px">ln10e</button></td> 
+      <td><button class="btn" type="button" onclick="exp()" class="input_field" id="input" style="width:60px">exp</button></td> 
+   </tr> 
+   </table> 
+   </div> 
+</body> 
+
+</html>                        
